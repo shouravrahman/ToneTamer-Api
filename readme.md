@@ -7,7 +7,7 @@ The Humanization Service API provides an advanced text transformation solution t
 ## Base URL
 
 ```
-https://api.yourcompany.com/v1/humanize
+https://tonetamer-api.onrender.com/humanize
 ```
 
 # 1. CURL Requests
@@ -15,7 +15,7 @@ https://api.yourcompany.com/v1/humanize
 # Basic Professional Email Humanization
 
 ```
-   curl -X POST https://api.yourcompany.com/v1/humanize \
+   curl -X POST https://tonetamer-api.onrender.com/humanize \
       -H "Content-Type: application/json" \
       -H "X-API-KEY: your_api_key_here" \
       -d '{
@@ -33,7 +33,7 @@ https://api.yourcompany.com/v1/humanize
 # Marketing Copy with Higher Creativity
 
 ```
-   curl -X POST https://api.yourcompany.com/v1/humanize \
+   curl -X POST https://tonetamer-api.onrender.com/humanize \
    -H "Content-Type: application/json" \
    -H "X-API-KEY: your_api_key_here" \
    -d '{
@@ -46,10 +46,6 @@ https://api.yourcompany.com/v1/humanize
   }'
 ```
 
-## Authentication
-
--   **Type**: API Key
--   **Header**: `X-API-KEY: your_api_key_here`
 
 ## Endpoint
 
